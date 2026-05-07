@@ -1,16 +1,26 @@
 {
   "name": "cherrysync",
-  "version": "1.0.0",
-  "description": "Lightweight multi-environment code sync CLI with environment-aware state tracking.",
+  "version": "1.1.0",
+  "description": "Lightweight multi-environment code sync CLI with environment-aware state tracking, backup, rollback, drift detection, and health checks.",
   "type": "module",
   "bin": {
-    "cherrysync": "./bin/cherrysync.js",
-    "csync": "./bin/csync.js"
+    "cherrysync": "bin/cherrysync.js",
+    "csync": "bin/csync.js"
   },
   "scripts": {
     "start": "node ./bin/csync.js",
     "lint": "node ./scripts/check.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limuyi-col/CherrySync.git"
+  },
+  "homepage": "https://github.com/Limuyi-col/CherrySync#readme",
+  "bugs": {
+    "url": "https://github.com/Limuyi-col/CherrySync/issues"
+  },
+  "author": "Limuyi-col",
+  "license": "MIT",
   "keywords": [
     "sftp",
     "sync",
@@ -19,9 +29,13 @@
     "cli",
     "multi-environment",
     "devops",
-    "ssh"
+    "ssh",
+    "backup",
+    "rollback",
+    "drift-detection",
+    "health-check",
+    "watch-mode"
   ],
-  "license": "MIT",
   "engines": {
     "node": ">=18"
   },

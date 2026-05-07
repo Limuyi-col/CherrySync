@@ -823,3 +823,7 @@ MIT (c) 2026 CherrySync — see [LICENSE](LICENSE) for full text.
 <p align="center">
   <sub>Made for developers who ship.</sub>
 </p>
+
+<p align="center">
+  <sub>Community: <a href="https://linux.do/">LINUX DO</a></sub>
+</p>
