@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" width="600" height="160">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#2ecc71"/>
+    </linearGradient>
+  </defs>
+  <!-- Cherry body -->
+  <circle cx="65" cy="90" r="40" fill="url(#bg)" />
+  <circle cx="55" cy="78" r="12" fill="#ecf0f1" opacity="0.3"/>
+  <!-- Cherry highlight -->
+  <ellipse cx="48" cy="72" rx="8" ry="6" fill="white" opacity="0.5"/>
+  <!-- Stem -->
+  <path d="M55 52 Q50 30 80 20" stroke="#27ae60" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Leaf -->
+  <path d="M78 22 Q95 10 105 22 Q95 30 78 22 Z" fill="url(#leaf)"/>
+  <!-- Sync arrows circle -->
+  <g transform="translate(110, 90)" stroke="#c0392b" fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M28 0 A28 28 0 1 1 -28 0" stroke-dasharray="56 120" />
+    <path d="M-28 0 A28 28 0 1 1 28 0" stroke-dasharray="56 120" stroke="#e74c3c"/>
+    <!-- Arrowheads -->
+    <polygon points="28,-4 36,0 28,4" fill="#c0392b" stroke="none"/>
+    <polygon points="-28,4 -36,0 -28,-4" fill="#e74c3c" stroke="none"/>
+  </g>
+  <!-- Project name -->
+  <text x="205" y="90" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="42" fill="#2c3e50" letter-spacing="-0.5">CherrySync</text>
+  <!-- Tagline -->
+  <text x="205" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="16" fill="#7f8c8d" letter-spacing="0.5">sync smart, not hard</text>
+</svg>

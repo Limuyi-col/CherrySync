@@ -1,0 +1,36 @@
+{
+  "name": "cherrysync",
+  "version": "1.0.0",
+  "description": "Lightweight multi-environment code sync CLI with environment-aware state tracking.",
+  "type": "module",
+  "bin": {
+    "cherrysync": "./bin/cherrysync.js",
+    "csync": "./bin/csync.js"
+  },
+  "scripts": {
+    "start": "node ./bin/csync.js",
+    "lint": "node ./scripts/check.js"
+  },
+  "keywords": [
+    "sftp",
+    "sync",
+    "deploy",
+    "deployment",
+    "cli",
+    "multi-environment",
+    "devops",
+    "ssh"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "diff": "^7.0.0",
+    "fast-glob": "^3.3.2",
+    "prompts": "^2.4.2",
+    "ssh2-sftp-client": "^11.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# CherrySync runtime data (contains sensitive SSH credentials)
+.csync/
+
+# Legacy server config
+csync.servers.json
+
+# Environment files
+.env
+.env.*
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# AI / agent tooling
+.claude/
+.agents/
+.codex/
+AGENTS.md
